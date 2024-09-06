@@ -1,0 +1,20 @@
+{
+  "name": "apirest-knex-postgre",
+  "version": "1.0.0",
+  "description": "_Un proyecto de API básica que se encarga de hacer un CRUD de personas y sus trabajos utilizando Node.js, Express y Mongoose._",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "knex": "^3.1.0",
+    "pg": "^8.12.0",
+    "postgres": "^3.4.4",
+    "redis": "^4.7.0"
+  }
+}

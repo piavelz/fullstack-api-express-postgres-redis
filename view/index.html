@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Personas y Trabajos</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Gestión de Personas y Trabajos</h1>
+
+        <!-- Sección para listar personas -->
+        <p>Listar a todas las personas</p>
+        <button id="btn-get-all-persons">Listar Todas las Personas</button>
+        <div id="getPersons" class="result"></div>
+        
+        <!-- Sección para obtener una persona específica -->
+        <p>Seleccionar una persona especifica</p>
+        <input type="number" id="personId" placeholder="ID de la Persona" required>
+        <button >Obtener Persona por ID</button>
+        <div id="getPerson" class="result"></div>
+        
+        <!-- Sección para crear una persona -->
+        <p>Crear Nueva Persona</p>
+    
+        <input type="text" id="name" placeholder="Nombre">
+        <input type="text" id="lastName" placeholder="Apellido">
+        <input type="text" id="nationality" placeholder="Nacionalidad">
+        <input type="number" id="year" placeholder="Año de Nacimiento">
+        <input type="text" id="createworkCompany" placeholder="Empresa">
+        <input type="text" id="createworkPosition" placeholder="Posición">
+        <input type="date" id="createworkInitContract" placeholder="Inicio del Contrato">
+        <input type="date" id="createworkFinishContract" placeholder="Fin del Contrato">
+        
+        <button id="createPersonButton">Crear Persona</button>
+        
+        
+        <!-- Sección para actualizar una persona -->
+        <p>Actualizar Persona Existente</p>
+        <input type="text" id="updatePersonId" placeholder="ID de la Persona">
+        <input type="text" id="updateName" placeholder="Nuevo Nombre">
+        <input type="text" id="updateLastName" placeholder="Nuevo Apellido">
+        <input type="text" id="updateNationality" placeholder="Nueva Nacionalidad">
+        <input type="number" id="updateYear" placeholder="Nuevo Año de Nacimiento">
+        <button >Actualizar Persona</button>
+        
+        <!-- Sección para eliminar una persona -->
+        <p>Eliminar Persona</p>
+        <input type="text" id="deletePersonId" placeholder="ID de la Persona">
+        <button >Eliminar Persona</button>
+
+        <!-- Sección para listar trabajos de una persona -->
+        <p>Listar Trabajos de una Persona</p>
+        <input type="text" id="personWorksId" placeholder="ID de la Persona">
+        <button >Listar Trabajos</button>
+        <div id="worksContainer" class="result"></div>
+
+        <!-- Sección para agregar un trabajo a una persona -->
+        <p>Agregar Nuevo Trabajo a una Persona</p>
+        <input type="text" id="workPersonId" placeholder="ID de la Persona">
+        <input type="text" id="workCompany" placeholder="Empresa">
+        <input type="text" id="workPosition" placeholder="Posición">
+        <input type="date" id="workInitContract" placeholder="Inicio del Contrato">
+        <input type="date" id="workFinishContract" placeholder="Fin del Contrato">
+        <button >Agregar Trabajo</button>
+
+        <!-- Sección para actualizar un trabajo específico -->
+        <p>Actualizar Trabajo Existente</p>
+        <input type="text" id="updateWorkPersonId" placeholder="ID de la Persona">
+        <input type="text" id="updateWorkId" placeholder="ID del Trabajo">
+        <input type="text" id="updateWorkCompany" placeholder="Nueva Empresa">
+        <input type="text" id="updateWorkPosition" placeholder="Nueva Posición">
+        <input type="date" id="updateWorkInitContract" placeholder="Nuevo Inicio del Contrato">
+        <input type="date" id="updateWorkFinishContract" placeholder="Nuevo Fin del Contrato">
+        <button >Actualizar Trabajo</button>
+
+        <!-- Sección para eliminar un trabajo específico -->
+        <p>Eliminar Trabajo</p>
+        <input type="text" id="deleteWorkPersonId" placeholder="ID de la Persona">
+        <input type="text" id="deleteWorkId" placeholder="ID del Trabajo">
+        <button >Eliminar Trabajo</button>
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
