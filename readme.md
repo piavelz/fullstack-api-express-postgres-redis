@@ -15,7 +15,7 @@ rm -rf .git
 ```
 
 
-###Abrir el repositorio en Visual Studio Code
+### Abrir el repositorio en Visual Studio Code
 _Desde Git Bash puedes ejecutar:_
 ```bash
 code .
@@ -26,7 +26,7 @@ _Una vez abierto Visual Studio Code, abre la terminal y ejecuta:_
 ```bash
 npm install
 ```
-_Con esto se instalarán los paquetes necesarios para utilizar la API, entre ellos Express,knex, redis. _
+_Con esto se instalarán los paquetes necesarios para utilizar la API, entre ellos Express,knex, redis._
 
 
 
