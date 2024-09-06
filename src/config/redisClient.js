@@ -5,7 +5,7 @@ const redisClient = redis.createClient({
 });
 
 (async () => {
-    await redisClient.connect();  // Conectar el cliente Redis de manera asíncrona
+    await redisClient.connect(); 
 })();
 
 redisClient.on('connect', () => {
