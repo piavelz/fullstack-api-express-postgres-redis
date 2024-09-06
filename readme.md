@@ -37,6 +37,8 @@ _Para ejecutar la API, escribe en la terminal de Visual Studio Code:_
 npm run start
 ```
 _Una vez que la api este ejecutandose, deberia mostrar algo como esto_
+
+
 ![image](https://github.com/user-attachments/assets/0ba20c78-ab1c-4cbf-9cc6-16d84417acbd)
 
 crtl+ click sobre la direccion entregada http://localhost/....  y dirigirá a la vista de el proyecto.
